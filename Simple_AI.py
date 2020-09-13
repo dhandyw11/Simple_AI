@@ -112,7 +112,7 @@ if __name__ == "__main__":
             webbrowser.open("http://siakad.untirta.ac.id/portal/")   
 
         elif 'play music' in query:
-            music_dir = 'C:\\Users\\Compact\\Desktop\\EXAMPLE_BOT\\Music' 
+            music_dir = 'C:\\Users\\Compact\\Desktop\\EXAMPLE_BOT\\Music' #Folder Music
             songs = os.listdir(music_dir)
             query = query.replace("play music", "")
             play = random.choice(songs)
@@ -120,7 +120,7 @@ if __name__ == "__main__":
             os.startfile(os.path.join(music_dir, play))
 
         elif 'start movie' in query:
-            movie_dir = 'C:\\Users\\Compact\\Desktop\\EXAMPLE_BOT\\Movie' 
+            movie_dir = 'C:\\Users\\Compact\\Desktop\\EXAMPLE_BOT\\Movie' #Folder Movie
             video = os.listdir(movie_dir)
             query = query.replace("start movie", "")
             play = random.choice(video)
@@ -133,7 +133,7 @@ if __name__ == "__main__":
             print("\nTIME", strTime)
 
         elif 'microsoft word' in query:
-            codePath = "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE"
+            codePath = "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE" # Open Word
             os.startfile(codePath)
 
         elif 'inform' in query:
