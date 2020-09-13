@@ -1,2 +1,3 @@
-# Simple_AI
-Artificial Intelligence or AI using Speech Recognition to open youtube, and others
+# Simple_AI_E-TRON
+A simple assignment about AI program based on Speech Recognition 
+to do some task
